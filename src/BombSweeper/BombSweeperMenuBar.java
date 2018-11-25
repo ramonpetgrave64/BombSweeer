@@ -131,7 +131,7 @@ public class BombSweeperMenuBar extends JMenuBar {
 
         public void actionPerformed(ActionEvent e) {
             JOptionPane.showMessageDialog(frame, "This is a simple game of"
-                    + " MineSweeper." + "\n\n" + "created by Ramon Petgrave",
+                    + " MineSweeper." + "\n\n" + "Created by Ramon Petgrave",
                     "About", JOptionPane.PLAIN_MESSAGE);
         }
     }
@@ -143,13 +143,13 @@ public class BombSweeperMenuBar extends JMenuBar {
                     + "Their is a gridded bombfield. Some cells in the grid have"
                     + " \n" + "bombs underneath and some don't."
                     + "\n\n"
-                    + "You have to uncover all the cells that do NOT have bomb,"
-                    + "\n" + "while avoiding uncovering cells that DO have bomb."
+                    + "You have to uncover all the cells that do NOT have bombs,"
+                    + "\n" + "while avoiding uncovering cells that DO have bombs."
                     + "\n\n" + "To uncover a cell, simply left-click on it. If their is a"
                     + "\n" + "number displayed under that cell, then their are that many cells"
                     + "\n" + "with bombs directly adjacent to that same uncovered cell. Using logic"
-                    + "\n" + "you can discern which cells have bomb and which cells dont."
-                    + "\n\n" + "You can left-click to \"flag\" a cell; mark a cell"
+                    + "\n" + "you can discern which cells have bombs and which cells don't."
+                    + "\n\n" + "You can right-click to \"flag\" a cell; mark a cell"
                     + "\n" + "that you believe their to be a bomb underneath."
                     + "\n\n" + "The number of flags, Y, from \"X / Y flags\" tells you exactly how"
                     + "many bombs there are in the field.";

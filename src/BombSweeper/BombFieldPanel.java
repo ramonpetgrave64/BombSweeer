@@ -212,7 +212,7 @@ public class BombFieldPanel extends JPanel {
         ArrayList<Cell> adjacentCells = getAdjacentCells(theCell);
 
         for (Cell adjCell : adjacentCells) {
-            if (!adjCell.isRevealed()) {
+            if (!adjCell.isRevealed() && !adjCell.isFlagged()) {
                 revealCell(adjCell);
                 if (checkCell(adjCell) == 0) {
                     revealConcurrentBlanks(adjCell);
